@@ -1,0 +1,111 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul li {
+    list-style: none;
+}
+
+body {
+    background-image: url(imagens/bg-desktop.svg);
+    background-size: cover;
+    background-color: #674BAF;
+    padding: 30px;
+
+}
+
+.header .logo img {
+    padding-left: 40px;
+    max-width: 15%;
+}
+
+.main {
+    display: flex;
+    column-gap: 50px;
+}
+
+.main img {
+    max-width: 85%;
+    padding-top: 60px;
+    padding-left: 40px;
+}
+
+.main .info {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.main .info h2 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+    color: #ffffffff;
+    padding-bottom: 20px;
+    align-self: flex-start;
+}
+
+.main .info p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    max-width: 450px;
+    color: #ffffffff;
+    text-align: left;
+    padding: 20px 0px;
+    align-self: flex-start;
+}
+
+.main .info a {
+    background-color: #ffffff;
+    width: 110px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding: 15px 35px;
+    text-align: center;
+    border-radius: 25px;
+    align-self: flex-start;
+    transition: .3s ease-out;
+}
+
+.main .info a:hover {
+    color: #ffffffff;
+    transition: .3s ease-in;
+    background-color: #fc4bf3;
+}
+
+footer {
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 30px;
+    padding-top: 15px;
+}
+
+footer .redes {
+    display: flex;
+    column-gap: 15px;
+    color: #ffffff;
+}
+
+footer .redes li a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    width: 35px;
+    height: 35px;
+    color: #ffffff;
+    border: 1px solid white;
+    border-radius: 50%;
+    transition: .3s ease-out;
+}
+
+footer .redes li a:hover {
+    border: 1px solid #fc4bf3;
+    transition: .3s ease-in;
+    color: #fc4bf3;
+}
